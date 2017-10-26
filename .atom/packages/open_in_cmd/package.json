@@ -1,0 +1,79 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/lc/jd_88kh90xx1k05lgmznb76w0000gn/T/d-117612-12576-1qh945o.68fdnghkt9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/lc/jd_88kh90xx1k05lgmznb76w0000gn/T/d-117612-12576-1qh945o.68fdnghkt9/package.tgz",
+        "spec": "/private/var/folders/lc/jd_88kh90xx1k05lgmznb76w0000gn/T/d-117612-12576-1qh945o.68fdnghkt9/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/lc/jd_88kh90xx1k05lgmznb76w0000gn/T/apm-install-dir-117612-12576-uem8xi.brgxecdi"
+    ]
+  ],
+  "_from": "../d-117612-12576-1qh945o.68fdnghkt9/package.tgz",
+  "_id": "open_in_cmd@0.6.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/open_in_cmd",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/lc/jd_88kh90xx1k05lgmznb76w0000gn/T/d-117612-12576-1qh945o.68fdnghkt9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/lc/jd_88kh90xx1k05lgmznb76w0000gn/T/d-117612-12576-1qh945o.68fdnghkt9/package.tgz",
+    "spec": "/private/var/folders/lc/jd_88kh90xx1k05lgmznb76w0000gn/T/d-117612-12576-1qh945o.68fdnghkt9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117612-12576-1qh945o.68fdnghkt9/package.tgz",
+  "_shasum": "9eca04b3df06570f9755e0fb9cf075f7c0458a9c",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/lc/jd_88kh90xx1k05lgmznb76w0000gn/T/d-117612-12576-1qh945o.68fdnghkt9/package.tgz",
+  "_where": "/private/var/folders/lc/jd_88kh90xx1k05lgmznb76w0000gn/T/apm-install-dir-117612-12576-uem8xi.brgxecdi",
+  "activationCommands": [],
+  "bugs": {
+    "url": "https://github.com/lmatt-bit/atom_open_in_cmd/issues"
+  },
+  "dependencies": {},
+  "description": "Allow user to open a CMD from current directory in Atom tree-view or editor.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/lmatt-bit/atom_open_in_cmd#readme",
+  "keywords": [
+    "cmd",
+    "command",
+    "windows"
+  ],
+  "license": "MIT",
+  "main": "./lib/code",
+  "name": "open_in_cmd",
+  "optionalDependencies": {},
+  "readme": "# Open in CMD\n\n![snapshot](https://raw.githubusercontent.com/lmatt-bit/atom_open_in_cmd/master/screenshot.gif)\n\nThanks to ziyasal's [open-conemu-here](https://github.com/ziyasal/atom-open-conemu-here), I can create \"open_in_cmd\" package. With \"open_in_cmd\", User can open a CMD in Atom directly from tree-view & editor.  \n\nTo install package from command line:\n```shell\napm install open_in_cmd\n```\n\nNote: This package is only enabled on Windows, that's why \"CMD\" is used.\n\n##License\nMIT License\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmatt-bit/atom_open_in_cmd.git"
+  },
+  "version": "0.6.1",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/code.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

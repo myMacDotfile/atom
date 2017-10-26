@@ -1,0 +1,80 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/lc/jd_88kh90xx1k05lgmznb76w0000gn/T/d-117613-37626-qr0467.pzvs0885mi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/lc/jd_88kh90xx1k05lgmznb76w0000gn/T/d-117613-37626-qr0467.pzvs0885mi/package.tgz",
+        "spec": "/private/var/folders/lc/jd_88kh90xx1k05lgmznb76w0000gn/T/d-117613-37626-qr0467.pzvs0885mi/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/lc/jd_88kh90xx1k05lgmznb76w0000gn/T/apm-install-dir-117613-37626-2r53ht.j4p7hqia4i"
+    ]
+  ],
+  "_from": "../d-117613-37626-qr0467.pzvs0885mi/package.tgz",
+  "_id": "auto-header@0.2.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/auto-header",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/lc/jd_88kh90xx1k05lgmznb76w0000gn/T/d-117613-37626-qr0467.pzvs0885mi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/lc/jd_88kh90xx1k05lgmznb76w0000gn/T/d-117613-37626-qr0467.pzvs0885mi/package.tgz",
+    "spec": "/private/var/folders/lc/jd_88kh90xx1k05lgmznb76w0000gn/T/d-117613-37626-qr0467.pzvs0885mi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117613-37626-qr0467.pzvs0885mi/package.tgz",
+  "_shasum": "d917fd335e7cb42167573a86fb25b0d49fd7ccdb",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/lc/jd_88kh90xx1k05lgmznb76w0000gn/T/d-117613-37626-qr0467.pzvs0885mi/package.tgz",
+  "_where": "/private/var/folders/lc/jd_88kh90xx1k05lgmznb76w0000gn/T/apm-install-dir-117613-37626-2r53ht.j4p7hqia4i",
+  "activationCommands": {
+    "atom-workspace": "auto-header:generate"
+  },
+  "bugs": {
+    "url": "https://github.com/rapidhere/auto-header/issues"
+  },
+  "dependencies": {},
+  "description": "auto generate header of projects file",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/rapidhere/auto-header#readme",
+  "keywords": [],
+  "license": "LGPLv3",
+  "main": "./lib/auto-header",
+  "name": "auto-header",
+  "optionalDependencies": {},
+  "readme": "Auto Header\n===\n\nFast generate the header content of your project files!\n\nUsage\n---\n\n`auto-header: generate` will change the header comment of current file\n\nthe default text is like this\n\n```\n# Copyright (c) 2015 by your name. All Rights Reserved.\n```\n\nto change the template this plugin generated, you can change the `auto-header.template` config.\nMulti-line templates are not supported in current atom version, so you have to change it in `config.cson`, like\n\n```cson\n'*':\n  'auto-header':\n    'template': '''\n      Copyright (c) {{year}} by {{author}}.\n      All Rights Reserved.\n\n      {{license-header}}\n    '''\n```\n\nTokens\n---\n\nSome tokens wrapped by `{{}}` will be replaced when render the template.\n\nHere are all of them\n\n### {{year}}\nwill be replaced by current year\n\n### {{author}}\nwill be replaced by `auto-header.author` config\n\n### {{license-header}}\nwill be replaced by license header specified by `auto-header.license` config\n\nlicense can be `'apachev2', 'bsdv2', 'bsdv3', 'gplv2', 'gplv3', 'lgplv2', 'lgplv3', 'mit', 'mplv2'`\n\nLICENSE\n---\n\n>   This program is free software: you can redistribute it and/or modify\nit under the terms of the GNU Lesser General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\n>   This program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU Lesser General Public License for more details.\n\n>   You should have received a copy of the Lesser GNU General Public License\nalong with this program.  If not, see <http://www.gnu.org/licenses/>.\n\nAuthor\n---\n\n*   call me via: rapidhere@gmail.com\n*   or leave a issue on my github, issues and PRs are welcome\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rapidhere/auto-header.git"
+  },
+  "version": "0.2.4",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/auto-header.coffee",
+        "lib/compiler.coffee",
+        "lib/generator.coffee",
+        "lib/licenses.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

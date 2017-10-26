@@ -1,0 +1,21 @@
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Find References'
+      'command': 'go-find-references:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'go-find-references'
+      'submenu': [
+        {
+          'label': 'Find References'
+          'command': 'go-find-references:toggle'
+        }
+      ]
+    ]
+  }
+]
